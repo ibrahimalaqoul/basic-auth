@@ -17,5 +17,5 @@
 
 ## Links :
 * [heroku app](https://class06-prod-app.herokuapp.com/)
-* [pull request link](https://github.com/ibrahimalaqoul/basic-auth/pull/1)
+* [pull request link](https://github.com/ibrahimalaqoul/basic-auth/pull/3)
 * [ Actions link](https://github.com/ibrahimalaqoul/basic-auth/actions)
