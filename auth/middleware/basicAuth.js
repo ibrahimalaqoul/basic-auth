@@ -14,7 +14,6 @@ const basicAuth = async (req, res, next) => {
             const User = await user.findOne({ where: { username: username } });
             const PWD = await bcrypt.compare(password, User.password);
             if (PWD) {
-                res.status(200).json(User);
                 req.User = User 
                 next();
             } else {
