@@ -1,0 +1,36 @@
+{
+  "name": "basic-auth",
+  "version": "1.0.0",
+  "description": "an Express server that implements Basic Authentication, with signup and signin capabilities, using a Postgres database for storage.",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node index.js",
+    "test": "NODE_ENV=test jest --coverage --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibrahimalaqoul/basic-auth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ibrahimalaqoul/basic-auth/issues"
+  },
+  "homepage": "https://github.com/ibrahimalaqoul/basic-auth#readme",
+  "dependencies": {
+    "base-64": "^1.0.0",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "pg": "^8.7.3",
+    "psql": "^0.0.1",
+    "sequelize": "^6.17.0",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "supertest": "^6.2.2"
+  }
+}
