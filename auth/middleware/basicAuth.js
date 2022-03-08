@@ -18,10 +18,10 @@ const basicAuth = async (req, res, next) => {
                 req.User = User 
                 next();
             } else {
-                next('invalid Login')
+                next('invalid login Password')
             }
         }} catch(error) {
-            res.status(500).send(error);
+            next('invalid login Username')
         }
 
     }
